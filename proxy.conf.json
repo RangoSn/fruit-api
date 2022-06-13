@@ -1,0 +1,8 @@
+{
+  "*/api/fruit*": {
+    "target": "https://www.fruityvice.com/api/fruit/all",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

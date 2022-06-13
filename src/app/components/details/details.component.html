@@ -1,0 +1,21 @@
+<a [routerLink]="['/frutas']"><button class="btn btn-success pull-right" style="margin-bottom: 50px;/*! border: 50px; */margin-top: 50px;"> Volver a frutas</button></a>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">genus</th>
+      <th scope="col">name</th>
+      <th scope="col">family</th>
+      <th scope="col">order</th>
+    </tr>
+  </thead>
+  <tbody  *ngFor="let data of arr">
+    <tr>
+      <td>{{data.id}}</td>
+      <td>{{data.genus}}</td>
+      <td>{{data.name}}</td>
+      <td>{{data.family}}</td>
+      <td>{{data.order}} </td>
+    </tr>
+  </tbody>
+</table>
